@@ -1,0 +1,103 @@
+{
+  "packages":
+  [
+    {
+      "name": "blueocean_m3_144",
+      "maintainer": "BlueOceanIOT",
+      "websiteURL": "https://blueoceaniot.io",
+      "email" : "support@blueoceaniot.io",
+      "platforms":
+      [
+        {
+          "name": "BlueOceanIOT Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/blob/main/blueocean_m3_144/blueocean_m3_144-1.0.0.zip",
+          "archiveFileName": "blueocean_m3_144-1.0.0.zip",
+          "checksum": "SHA-256:afa3584d27f66b1040f46ea3f8307e5be6f9ee0f0658f57c46a9be7211be06d5",
+          "size": "42509820",
+          "boards": [
+            {
+              "name": "BlueOceanIOT M3-144"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
+          "name": "BlueOceanIOT Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/blob/main/blueocean_m3_144/blueocean_m3_144-1.0.0.zip",
+          "archiveFileName": "blueocean_m3_144-1.0.0.zip",
+          "checksum": "SHA-256:afa3584d27f66b1040f46ea3f8307e5be6f9ee0f0658f57c46a9be7211be06d5",
+          "size": "42509820",
+          "boards": [
+            {
+              "name": "BlueOceanIOT M3-144"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
