@@ -11,12 +11,12 @@
         {
           "name": "BlueOceanIOT Boards",
           "architecture": "samd",
-          "version": "0.0.1",
+          "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/robotics-masters/mm1-hat-arduino/blob/master/custom_board/RoboHat-0.0.26.zip?raw=true",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/blob/main/blueocean_m3_144/blueocean_m3_144-1.0.0.zip",
           "archiveFileName": "blueocean_m3_144",
-          "checksum": "SHA-256:a2a2005a636b230b7b65c94514208d2211d4b03e7429f39a1c57ea8819893e58",
-          "size": "8773152",
+          "checksum": "SHA-256:afa3584d27f66b1040f46ea3f8307e5be6f9ee0f0658f57c46a9be7211be06d5",
+          "size": "42509820",
           "boards": [
             {
               "name": "BlueOceanIOT M3-144"
@@ -54,15 +54,15 @@
         {
           "name": "BlueOceanIOT Boards",
           "architecture": "samd",
-          "version": "0.0.24",
+          "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/robotics-masters/mm1-hat-arduino/blob/master/custom_board/RoboHat-0.0.24.zip?raw=true",
-          "archiveFileName": "RoboHat-0.0.24.zip",
-          "checksum": "SHA-256:750fedea5f8ac247a4534dcd3b034c8cb9b27be80c631b59761f8aa87a67d737",
-          "size": "3661545",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/blob/main/blueocean_m3_144/blueocean_m3_144-1.0.0.zip",
+          "archiveFileName": "blueocean_m3_144-1.0.0.zip",
+          "checksum": "SHA-256:afa3584d27f66b1040f46ea3f8307e5be6f9ee0f0658f57c46a9be7211be06d5",
+          "size": "42509820",
           "boards": [
             {
-              "name": "Robo HAT MM1"
+              "name": "BlueOceanIOT M3-144"
             }
           ],
           "toolsDependencies":
