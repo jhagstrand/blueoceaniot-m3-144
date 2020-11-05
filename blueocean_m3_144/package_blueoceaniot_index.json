@@ -16,8 +16,8 @@
           "architecture": "samd",
           "version": "1.0.2",
           "category": "Contributed",
-          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.0.2.zip.bz2",
-          "archiveFileName": "blueoceaniot-1.0.2.zip.bz2",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.0.2.tar.bz2",
+          "archiveFileName": "blueoceaniot-1.0.2.tar.bz2",
           "checksum": "SHA-256:dbb529a9a9ce56232c85ea3c2ad6a378ffa66ae33fdc61277fd2e1c7f0504026",
           "size": "39449484",
           "boards": [
