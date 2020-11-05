@@ -14,11 +14,11 @@
         {
           "name": "BlueOceanIOT Boards",
           "architecture": "samd",
-          "version": "1.0.2",
+          "version": "1.6.2",
           "category": "Contributed",
-          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.6.2.tar.bz2",
-          "archiveFileName": "blueoceaniot-1.6.2.tar.bz2",
-          "checksum": "SHA-256:efe4985a51c360e7b9041cc2d19bcb1040ae5a6c079fbd6bcb7191f11850a6a3",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.0.2.tar.bz2",
+          "archiveFileName": "blueoceaniot-1.0.2.tar.bz2",
+          "checksum": "SHA-256:dbb529a9a9ce56232c85ea3c2ad6a378ffa66ae33fdc61277fd2e1c7f0504026",
           "size": "39449484",
           "boards": [
             {
