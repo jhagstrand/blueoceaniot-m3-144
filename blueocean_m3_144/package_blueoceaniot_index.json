@@ -14,7 +14,7 @@
         {
           "name": "BlueOceanIOT Boards",
           "architecture": "sam",
-          "version": "1.6.2",
+          "version": "1.0.2",
           "category": "Contributed",
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.0.2.tar.bz2",
           "archiveFileName": "blueoceaniot-1.0.2.tar.bz2",
@@ -22,7 +22,7 @@
           "size": "16481554",
           "boards": [
             {
-              "name": "BlueOceanIOT M3-144"
+              "name": "BlueOceanIOT M3-144 1.0.2"
             }
           ],
           "toolsDependencies":
@@ -41,16 +41,16 @@
         },
         {
           "name": "BlueOceanIOT Boards",
-          "architecture": "samd",
+          "architecture": "sam",
           "version": "1.6.2",
           "category": "Contributed",
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.6.2.tar.bz2",
-          "archiveFileName": "blueoceaniot-1.0.2.tar.bz2",
+          "archiveFileName": "blueoceaniot-1.6.2.tar.bz2",
           "checksum": "SHA-256:efe4985a51c360e7b9041cc2d19bcb1040ae5a6c079fbd6bcb7191f11850a6a3",
           "size": "16481065",
           "boards": [
             {
-              "name": "BlueOceanIOT M3-144"
+              "name": "BlueOceanIOT M3-144 1.6.2"
             }
           ],
           "toolsDependencies":
