@@ -13,8 +13,8 @@
       [
         {
           "name": "BlueOceanIOT Boards",
-          "architecture": "samd",
-          "version": "1.0.2",
+          "architecture": "sam",
+          "version": "1.6.2",
           "category": "Contributed",
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.6.2.tar.bz2",
           "archiveFileName": "blueoceaniot-1.6.2.tar.bz2",
