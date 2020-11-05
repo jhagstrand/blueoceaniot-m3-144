@@ -6,17 +6,20 @@
       "maintainer": "BlueOceanIOT",
       "websiteURL": "https://blueoceaniot.io",
       "email" : "support@blueoceaniot.io",
+      "help": {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
       "platforms":
       [
         {
           "name": "BlueOceanIOT Boards",
           "architecture": "samd",
-          "version": "1.0.0",
+          "version": "1.0.2",
           "category": "Contributed",
-          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/blob/main/blueocean_m3_144/blueocean_m3_144-1.0.0.zip",
-          "archiveFileName": "blueoceaniot-1.0.0.zip",
-          "checksum": "SHA-256:3fbc35519dd786ae93f4e3ad85703643d78afed332d78669f99e13772fbaa4c2",
-          "size": "42400408",
+          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/blob/main/blueocean_m3_144/blueocean_m3_144-1.0.2.zip",
+          "archiveFileName": "blueoceaniot-1.0.2.zip",
+          "checksum": "SHA-256:dbb529a9a9ce56232c85ea3c2ad6a378ffa66ae33fdc61277fd2e1c7f0504026",
+          "size": "39449484",
           "boards": [
             {
               "name": "BlueOceanIOT M3-144"
