@@ -19,7 +19,7 @@
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.0.2.tar.bz2",
           "archiveFileName": "blueoceaniot-1.0.2.tar.bz2",
           "checksum": "SHA-256:e54a9116b4f27dc89fba2d3ac0f331dd87154241c6c9a5626721894e7491e669",
-          "size": "16481554",
+          "size": "16473848",
           "boards": [
             {
               "name": "BlueOceanIOT M3-144 1.0.2"
@@ -46,7 +46,7 @@
           "category": "Contributed",
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.6.2.tar.bz2",
           "archiveFileName": "blueoceaniot-1.6.2.tar.bz2",
-          "checksum": "SHA-256:2b838587069823b8792495398949296868cb8c36538e6b3dfc9c688fb8aa1d53",
+          "checksum": "SHA-256:ec8cb73ed4edb486caa1c3a9c5b5ffb4d28f554470d3cd6102207f2b22d321c0",
           "size": "16473828",
           "boards": [
             {
