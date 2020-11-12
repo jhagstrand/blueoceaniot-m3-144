@@ -1,5 +1,5 @@
 
-blueocean_m3_144_dbg.name=BlueOceanIOT (Programming Port)
+blueocean_m3_144_dbg.name=BlueOceanIOT 8XE (Programming Port)
 blueocean_m3_144_dbg.vid.0=0x2341
 blueocean_m3_144_dbg.pid.0=0x003d
 blueocean_m3_144_dbg.vid.1=0x2A03
@@ -23,7 +23,7 @@ blueocean_m3_144_dbg.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
 blueocean_m3_144_dbg.build.vid=0x2341
 blueocean_m3_144_dbg.build.pid=0x003e
 
-blueocean_m3_144.name=BlueOceanIOT (Native USB Port)
+blueocean_m3_144.name=BlueOceanIOT 8XE (Native USB Port)
 blueocean_m3_144.vid.0=0x2341
 blueocean_m3_144.pid.0=0x003e
 blueocean_m3_144.vid.1=0x2A03
@@ -46,4 +46,54 @@ blueocean_m3_144.build.variant=blueocean_m3_144
 blueocean_m3_144.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
 blueocean_m3_144.build.vid=0x2341
 blueocean_m3_144.build.pid=0x003e
+
+
+blueocean_m3_100_dbg.name=BlueOceanIOT 8XC (Programming Port)
+blueocean_m3_100_dbg.vid.0=0x2341
+blueocean_m3_100_dbg.pid.0=0x003d
+blueocean_m3_100_dbg.vid.1=0x2A03
+blueocean_m3_100_dbg.pid.1=0x003d
+blueocean_m3_100_dbg.upload.tool=bossac
+blueocean_m3_100_dbg.upload.protocol=sam-ba
+blueocean_m3_100_dbg.upload.maximum_size=524288
+blueocean_m3_100_dbg.upload.use_1200bps_touch=true
+blueocean_m3_100_dbg.upload.wait_for_upload_port=false
+blueocean_m3_100_dbg.upload.native_usb=false
+blueocean_m3_100_dbg.build.mcu=cortex-m3
+blueocean_m3_100_dbg.build.f_cpu=84000000L
+blueocean_m3_100_dbg.build.usb_manufacturer="BlueOceanIOT"
+blueocean_m3_100_dbg.build.usb_product="BlueOceanIOT"
+blueocean_m3_100_dbg.build.board=BLUEOCEAN-M3-100
+blueocean_m3_100_dbg.build.core=arduino
+blueocean_m3_100_dbg.build.extra_flags=-D__SAM3X8C__ -mthumb {build.usb_flags}
+blueocean_m3_100_dbg.build.ldscript=linker_scripts/gcc/flash.ld
+blueocean_m3_100_dbg.build.variant=blueocean_m3_100
+blueocean_m3_100_dbg.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
+blueocean_m3_100_dbg.build.vid=0x2341
+blueocean_m3_100_dbg.build.pid=0x003e
+
+blueocean_m3_100.name=BlueOceanIOT 8XC (Native USB Port)
+blueocean_m3_100.vid.0=0x2341
+blueocean_m3_100.pid.0=0x003e
+blueocean_m3_100.vid.1=0x2A03
+blueocean_m3_100.pid.1=0x003e
+blueocean_m3_100.upload.tool=bossac
+blueocean_m3_100.upload.protocol=sam-ba
+blueocean_m3_100.upload.maximum_size=524288
+blueocean_m3_100.upload.use_1200bps_touch=true
+blueocean_m3_100.upload.wait_for_upload_port=true
+blueocean_m3_100.upload.native_usb=true
+blueocean_m3_100.build.mcu=cortex-m3
+blueocean_m3_100.build.f_cpu=84000000L
+blueocean_m3_100_dbg.build.usb_manufacturer="BlueOceanIOT"
+blueocean_m3_100.build.usb_product="BlueOceanIOT"
+blueocean_m3_100.build.board=BLUEOCEAN-M3-100
+blueocean_m3_100.build.core=arduino
+blueocean_m3_100.build.extra_flags=-D__SAM3X8C__ -mthumb {build.usb_flags}
+blueocean_m3_100.build.ldscript=linker_scripts/gcc/flash.ld
+blueocean_m3_100.build.variant=blueocean_m3_100
+blueocean_m3_100.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
+blueocean_m3_100.build.vid=0x2341
+blueocean_m3_100.build.pid=0x003e
+
 
