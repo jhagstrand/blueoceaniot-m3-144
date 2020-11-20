@@ -1,13 +1,18 @@
-# Arduino Core for SAM3X CPU
+# BlueOceanIOT Core for SAM3X CPUs
 
-This repository contains the source code and configuration files of the Arduino Core for Atmel's SAM3X processor (used on the [Arduino Due](https://www.arduino.cc/en/Main/ArduinoBoardDue) board).
+This repository contains the source code and configuration files of the BlueOceanIOT Boards based on Arduino Core for Atmel's SAM3X processor (used on the [Arduino Due](https://www.arduino.cc/en/Main/ArduinoBoardDue) board).
 
 ## Installation on Arduino IDE
 
-This core is available as a package in the Arduino IDE cores manager.
-Just open the "Boards Manager" and install the package called:
+This core is available as a third party package in the Arduino IDE cores manager.
 
- * **Arduino SAM Boards (32-bit ARM Cortex-M3)**
+From  Arduino's preferences add the following path to Additional Board Manager URLs:
+
+https://raw.githubusercontent.com/jhagstrand/blueoceaniot-m3-144/main/blueocean_m3_144/packages_blueoceaniot_index.json
+
+ You may need to restart Arduino for this, but then you can open the "Boards Manager" and install the package called:
+
+ * **BlueOceanIOT SAM Boards (32-bit ARM Cortex-M3)**
 
 ## Support
 

@@ -1,11 +1,11 @@
 
-# Arduino SAM Core and platform.
+# BlueOceanIOT SAM Core and platform based of Arduino
 # ------------------------------
 #
 # For more info:
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
 
-name=BlueOceanIOT (32-bits) Boards
+name=BlueOceanIOT ARM (32-bits) Boards
 version=1.6.2
 
 # SAM3 compile variables
