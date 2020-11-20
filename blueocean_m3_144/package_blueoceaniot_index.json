@@ -12,42 +12,14 @@
       "platforms":
       [
         {
-          "name": "BlueOceanIOT Boards",
-          "architecture": "sam",
-          "version": "1.0.2",
-          "category": "Contributed",
-          "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.0.2.tar.bz2",
-          "archiveFileName": "blueoceaniot-1.0.2.tar.bz2",
-          "checksum": "SHA-256:e54a9116b4f27dc89fba2d3ac0f331dd87154241c6c9a5626721894e7491e669",
-          "size": "16473848",
-          "boards": [
-            {
-              "name": "BlueOceanIOT M3-144 1.0.2"
-            }
-          ],
-          "toolsDependencies":
-          [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.3-arduino"
-            }
-          ]
-        },
-        {
-          "name": "BlueOceanIOT (32-bits) Boards",
+          "name": "BlueOceanIOT SAM Boards (32-bits ARM Cortex-M3",
           "architecture": "sam",
           "version": "1.6.2",
           "category": "Contributed",
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.6.2.tar.bz2",
           "archiveFileName": "blueoceaniot-1.6.2.tar.bz2",
-          "checksum": "SHA-256:105ad65f4391ed3c70ce7ffd7919fa188dfed383005d2442bbef7f2e095444ca",
-          "size": "16492570",
+          "checksum": "SHA-256:f0ddb7f32cf3de7a8d45fa1e7ad55072c336124e5b2c53f24f7e1b38a456412a",
+          "size": "16491711",
           "boards": [
             {
               "name": "BlueOceanIOT 8XE"
@@ -73,6 +45,53 @@
       ],
       "tools":
       [
+        {
+          "name": "bossac",
+          "version": "1.7.0-industruino",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-mingw32.tar.gz",
+              "archiveFileName": "bossac-1.7.0-industruino-mingw32.tar.gz",
+              "checksum": "SHA-256:960d91feb565e957dbac9399e16839aa4eb4400153f2373896b733eeea778ab2",
+              "size": "565844"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-i386-apple-darwin15.6.0.tar.gz",
+              "archiveFileName": "bossac-1.7.0-industruino-i386-apple-darwin15.6.0.tar.gz",
+              "checksum": "SHA-256:a2455d20fd8269d0655ebc50014e539911070a0b14964082337655f17de7cbf2",
+              "size": "128421"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-x86_64-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.7.0-industruino-x86_64-linux-gnu.tar.gz",
+              "checksum": "SHA-256:2cbeb64a0e0a58f3b769ef6cdcfe55fa939b3015845b3081a9beebe9432ba4a6",
+              "size": "62348"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://static.industruino.com/downloads/code/IndustruinoCores/IndustruinoSAMD/tools/bossac-1.7.0-industruino-i686-linux-gnu.tar.gz",
+              "archiveFileName": "bossac-1.7.0-industruino-i686-linux-gnu.tar.gz",
+              "checksum": "SHA-256:77b06322da2a9bdc17ddcbc29627802e8b2bf47b5625fe6fb17d90203e4a4071",
+              "size": "63204"
+            }
+          ]
+        },
+        {
+          "name": "windows-drivers",
+          "version": "0.0.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://static.industruino.com/downloads/drivers/drivers-industruino-windows-0.0.1.zip",
+              "archiveFileName": "drivers-industruino-windows-0.0.1.zip",
+              "checksum": "SHA-256:f1d7c7d30ca71f7224dac077f18f25f62ff97b43dd1e4a43ec4930a13a3ac484",
+              "size": "2545"
+            }
+          ]
+        }
       ]
     }
   ]
