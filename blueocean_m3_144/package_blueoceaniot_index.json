@@ -12,13 +12,13 @@
       "platforms":
       [
         {
-          "name": "BlueOceanIOT SAM Boards (32-bits ARM Cortex-M3",
+          "name": "BlueOceanIOT SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
           "version": "1.6.2",
           "category": "Contributed",
           "url": "https://github.com/jhagstrand/blueoceaniot-m3-144/raw/main/blueocean_m3_144/blueoceaniot-1.6.2.tar.bz2",
           "archiveFileName": "blueoceaniot-1.6.2.tar.bz2",
-          "checksum": "SHA-256:f0ddb7f32cf3de7a8d45fa1e7ad55072c336124e5b2c53f24f7e1b38a456412a  ",
+          "checksum": "SHA-256:f0ddb7f32cf3de7a8d45fa1e7ad55072c336124e5b2c53f24f7e1b38a456412a",
           "size": "16491711",
           "boards": [
             {
