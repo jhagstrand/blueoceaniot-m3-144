@@ -55,10 +55,10 @@ extern "C"{
  *----------------------------------------------------------------------------*/
 
 // Number of pins defined in PinDescription array
-#define PINS_COUNT           (79u)
-#define NUM_DIGITAL_PINS     (66u)
+#define PINS_COUNT           (43u)  //(79u) - 36
+#define NUM_DIGITAL_PINS     (30u)  //(66u) - 36
 #define NUM_ANALOG_INPUTS    (12u)
-#define analogInputToDigitalPin(p) ((p < 12u)? (p) + 54u : -1)
+#define analogInputToDigitalPin(p) ((p < 12u)? (p) + 30u : -1)  //((p < 12u)? (p) + 30u : -1)
 #define digitalPinToPort(P)        ( g_APinDescription[P].pPort )
 #define digitalPinToBitMask(P)     ( g_APinDescription[P].ulPin )
 //#define analogInPinToBit(P)        ( )
